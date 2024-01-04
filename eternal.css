@@ -1,0 +1,209 @@
+html {
+	font-size: 18px;
+}
+
+html, body {
+	margin: auto;
+	background: rgb(248, 248, 248);
+}
+
+#write {
+	max-width: 960px;
+	margin: 0 auto;
+	margin-bottom: 2em;
+	line-height: 1.53;
+	padding-top: 40px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1100px;
+	}
+}
+
+p {
+    font-family: Times, sans-serif;
+}
+
+h1 {
+    margin: 0 auto;
+    margin-top: 1.1em;
+    margin-bottom: 0.3em;
+    font-size: 2.25em;
+    text-align: center;
+}
+
+h2 {
+    padding-left: 0.5em;
+    color: rgb(8, 75, 135);
+}
+
+h3 {
+    padding-left: 0.5em;
+    color: rgb(4, 77, 89);
+}
+
+strong {
+    color: #a22a2a;
+    font-weight: bold;
+}
+
+code {
+    background: rgba(235, 235, 235, 0.1);
+    color: #25622d;
+    padding: 0 4px;
+    margin: 0 1px;
+    border-radius: 10px;
+}
+
+.CodeMirror {
+    box-sizing: border-box;
+    margin: 1.6em 0;
+    padding: 0.4em 0 0.4em 1.2em;
+    border: 2px solid burlywood;
+    min-height: 20px;
+}
+
+.CodeMirror.cm-s-inner {
+    background-color: #E6E6FA;
+}
+
+
+li, ul {
+    color: #1050d0;
+}
+
+li span, ul span {
+    color: #3f3c95;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+h3 {
+    font-size: 1.2em
+}
+
+h4 {
+    font-size: 1.1em;
+
+}
+
+hr {
+	color: #bcbaba;
+	height: 1px;
+	margin: 2em 0;
+	border-top: solid 2px #f3e4e4;
+	border-bottom: none;
+	border-left: 0;
+	border-right: 0;
+    line-height: 1px;
+    overflow-y: hidden;
+}
+
+.md-toc {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+a {
+    margin: 0 1px;
+    color: #0f0c0b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+blockquote {
+    box-sizing: border-box;
+    margin: 1.6em 0;
+    border-radius: 2px;
+    padding: 0 0 0 1.2em;
+    border-left: 4px solid #16b0ff;
+    color: #6b76cd;
+    min-height: 20px;
+}
+
+#write table {
+    margin-top: 1rem;
+    word-break: initial;
+    background-color: #fff;
+}
+table tr {
+    border-top: .1em solid #ddd;
+    margin: 0;
+    padding: 0;
+}
+table th {
+    font-weight: bold;
+    border: .1em solid #ddd;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: .1em solid #ddd;
+    margin: 0;
+    padding: 6px 13px;
+}
+table thead {
+    background-color: #f5f5f5;
+}
+table tr:nth-child(2n) {
+    background-color: #f8f8f8;
+}
+table tr th:first-child,
+table tr td:first-child {
+    margin-top: 0;
+}
+table tr th:last-child,
+table tr td:last-child {
+    margin-bottom: 0;
+}
+
+li.task-list-not-done>input[type="checkbox"]{
+    cursor: pointer !important;
+    border: 1px solid #ccc !important;
+    width: 18px !important;
+    height: 18px !important;
+    border-radius: 3px !important;
+    transition: all 0.3s ease !important;
+    margin: 7px 1px 1px -28px !important;
+}
+
+li.task-list-done>input[type="checkbox"] {
+    cursor: pointer !important;
+    border: 1px solid #ccc !important;
+    width: 18px !important;
+    height: 18px !important;
+    border-radius: 3px !important;
+    transition: all 0.3s ease !important;
+    margin: 7px 1px 1px -28px !important;
+}
+
+li.task-list-not-done>p>span[md-inline="strong"]::before{
+    content: "⏳";
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+li.task-list-done>p>span:first-child::before{
+    content: "🏆";
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.ul-list > li{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+
