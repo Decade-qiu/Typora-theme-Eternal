@@ -3,7 +3,7 @@ layout: theme
 title: Eternal
 category: theme
 homepage: https://decade.net.cn
-download: https://github.com/passwordgloo/Typora-foresee-theme
+download: https://github.com/Decade-qiu/Typora-theme-Eternal
 author: decade
 thumbnail: Eternal.png
 typora-root-url: ../../
@@ -19,4 +19,3 @@ typora-copy-images-to: ../../media/theme/Eternal
 ![Eternal](https://github.com/Decade-qiu/theme.typora.io/assets/74434779/2fea9187-d102-4986-bd85-65bffb9d71b3)
 
 ![Eternal-other](https://github.com/Decade-qiu/theme.typora.io/assets/74434779/ee3c085d-fef3-48c1-b106-9d41006b97d7)
-
