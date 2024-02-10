@@ -205,5 +205,10 @@ li.task-list-done>p>span:first-child::before{
     margin-bottom: 16px;
 }
 
+ol {
+    list-style-type: decimal;
+}
 
-
+ol ol {
+    list-style-type: lower-alpha;
+}
