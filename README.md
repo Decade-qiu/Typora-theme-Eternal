@@ -10,9 +10,9 @@ typora-root-url: ../../
 typora-copy-images-to: ../../media/theme/Eternal
 ---
 
->此主题仅在Windows下设计和测试，在其他操作系统上的效果未知！
+>This theme is designed and tested only on Windows, and its performance on other operating systems is unknown!  
 
->欢迎来访我的博客：[decade](https://decade.net.cn), 与该主题风格类似(主打一个简洁，清爽)。
+>Welcome to visit my blog: [decade](https://decade.net.cn), which has a similar style to this theme (focused on simplicity and freshness).
 
 # Eternal
 
